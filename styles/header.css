@@ -36,6 +36,8 @@ display: inline-block;
 
 .lista-menu__link{
 background-color: var(--roxo);
+text-transform: uppercase;
+text-decoration: none;
 }
     .container__botao {
         display: none;        
