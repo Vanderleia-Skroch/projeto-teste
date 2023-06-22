@@ -11,12 +11,36 @@ display: inline-block;
     justify-content: space-between;
 
 }
-
 .container {
     display: flex;
     align-items: center;
     }
 
-    .container {
-        
+    .container__imagem{
+        padding: 1em;
     }
+    .lista-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+    }
+    .container {
+        botao
+    }
+.lista-menu__titulo, .lista-menu__item{
+    color: var(--amrelo);
+    background-color: var(--branco);
+    padding: 1em;
+}
+
+
+.lista-menu__link{
+background-color: var(--roxo);
+}
+    .container__botao {
+        display: none;        
+    }
+    .container__botao: :checked~.lista-menu{
+        display: block;
+    }
+
